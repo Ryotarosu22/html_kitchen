@@ -1,16 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Website</title>
+	<meta charset="utf-8">
+	<title>料理紹介Webサイト</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
 </head>
 <body>
-	<h1>Welcome to My Website</h1>
-	<p>Thanks for visiting my website. Please explore the content and feel free to contact me if you have any questions.</p>
+	<header>
+		<h1>料理紹介Webサイト</h1>
+		<nav>
+			<ul>
+				<li><a href="#">ホーム</a></li>
+				<li><a href="#">レシピ</a></li>
+				<li><a href="#">お問い合わせ</a></li>
+			</ul>
+		</nav>
+	</header>
 
-	<script>
-		// JavaScript code
-		var name = prompt("What is your name?");
-		alert("Hello, " + name + "! Welcome to my website.");
-	</script>
+	<main>
+		<section class="recipe">
+			<div class="recipe-image">
+				<img src="https://source.unsplash.com/4dpA2j7UJc8/800x500" alt="ハンバーグ">
+			</div>
+			<div class="recipe-details">
+				<h2>ハンバーグ</h2>
+				<p>材料</p>
+				<ul>
+					<li>合挽肉 300g</li>
+					<li>玉ねぎ 1/2個</li>
+					<li>パン粉 50g</li>
+					<li>牛乳 50ml</li>
+					<li>卵 1個</li>
+					<li>塩 小さじ1/2</li>
+					<li>こしょう 適量</li>
+					<li>バター 10g</li>
+				</ul>
+				<p>作り方</p>
+				<ol>
+					<li>ボウルに合挽肉、すりおろした玉ねぎ、パン粉、牛乳、卵、塩、こしょうを入れてよく混ぜる。</li>
+					<li>手でこねて空気を抜き、4等分に分けてハンバーグの形に整える。</li>
+					<li>フライパンにバターを溶かして中火で熱し、ハンバーグを焼く。</li>
+					<li>焼き色がついたら裏返して弱火で蓋をして約10分焼く。</li>
+					<li>お好みでソースをかけて完成。</li>
+				</ol>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<p>料理紹介Webサイト</p>
+	</footer>
 </body>
 </html>
